@@ -1,0 +1,8 @@
+apiVersion: eksctl.io/v1alpha5
+kind: clusterConfig
+metadata: 
+  name: roboshop
+  region: us-east-1
+managedNodeGropus:
+  - name: roboshop
+    instanceTypes:
